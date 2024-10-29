@@ -9,11 +9,21 @@
 <body>
     <header>
         <h1>Recetas de Cocina</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#paella">Paella Valenciana</a></li>
+                <li><a href="#enchiladas">Enchiladas Verdes</a></li>
+                <li><a href="#curry">Curry de Pollo</a></li>
+                <li><a href="#sopa">Sopa de Ajo</a></li>
+                <li><a href="#tiramisu">Tiramisú Clásico</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <section class="recipe" style="border-color: #ffcc80;">
+        <section class="recipe" id="paella">
             <div class="recipe-content">
-                <h2 style="color: #ff9800;">1. Paella Valenciana</h2>
+                <h2 style="color: #2196F3;">1. Paella Valenciana</h2>
                 <h3>Ingredientes:</h3>
                 <ul>
                     <li>400 g de arroz</li>
@@ -29,21 +39,24 @@
                     <li>Azafrán o colorante</li>
                     <li>Sal y pimienta</li>
                 </ul>
-                <h3>Preparación:</h3>
-                <ol>
-                    <li>Preparar el sofrito: En una paellera amplia, calienta aceite de oliva y dora los trozos de pollo y conejo hasta que estén dorados por todos lados. Retíralos y resérvalos.</li>
-                    <li>Cocinar las verduras: En el mismo aceite, añade las judías verdes y sofríelas hasta que estén tiernas. Añade el pimiento cortado en tiras, los ajos picados y el tomate rallado. Cocina todo junto hasta que el tomate se haya reducido.</li>
-                    <li>Incorporar el arroz: Añade el arroz a la paellera y mézclalo con el sofrito. A continuación, vuelve a incorporar la carne reservada.</li>
-                    <li>Añadir el caldo: Vierte el caldo caliente, asegurándote de que cubre todos los ingredientes. Añade el garrofón y el azafrán. Cocina a fuego medio durante 20 minutos sin remover, dejando que el arroz absorba todo el caldo.</li>
-                    <li>Reposar y servir: Una vez cocido el arroz, retira del fuego y deja reposar unos minutos antes de servir. ¡Listo para disfrutar!</li>
-                </ol>
+                <div class="preparacion">
+                    <h3>Preparación:</h3>
+                    <ol>
+                        <li>En una paellera, calienta aceite de oliva y dora los trozos de pollo y conejo.</li>
+                        <li>En el mismo aceite, añade las judías verdes y sofríelas hasta que estén tiernas.</li>
+                        <li>Añade el arroz y mezcla con el sofrito.</li>
+                        <li>Vierte el caldo caliente y añade el garrofón y el azafrán.</li>
+                        <li>Cocina a fuego medio durante 20 minutos sin remover.</li>
+                        <li>Deja reposar unos minutos antes de servir.</li>
+                    </ol>
+                </div>
             </div>
             <img src="https://www.loveandlemons.com/wp-content/uploads/2020/04/vegan-paella.jpg" alt="Paella Valenciana">
         </section>
 
-        <section class="recipe" style="border-color: #81c784;">
+        <section class="recipe" id="enchiladas">
             <div class="recipe-content">
-                <h2 style="color: #4caf50;">2. Enchiladas Verdes</h2>
+                <h2 style="color: #4CAF50;">2. Enchiladas Verdes</h2>
                 <h3>Ingredientes:</h3>
                 <ul>
                     <li>12 tortillas de maíz</li>
@@ -57,20 +70,22 @@
                     <li>Aceite vegetal</li>
                     <li>Sal</li>
                 </ul>
-                <h3>Preparación:</h3>
-                <ol>
-                    <li>Preparar la salsa: Cocina los tomatillos y los chiles en agua hirviendo durante unos 5 minutos. Licúa con la cebolla, el ajo y sal hasta obtener una salsa homogénea.</li>
-                    <li>Freír las tortillas: Calienta aceite y pasa las tortillas rápidamente por el aceite caliente para suavizarlas. Resérvalas.</li>
-                    <li>Ensamblar las enchiladas: Rellena cada tortilla con pollo desmenuzado y enrolla. Coloca en un plato grande.</li>
-                    <li>Servir: Cubre con la salsa verde caliente, añade crema y queso fresco. Sirve con frijoles refritos o arroz.</li>
-                </ol>
+                <div class="preparacion">
+                    <h3>Preparación:</h3>
+                    <ol>
+                        <li>Cocina los tomatillos y los chiles en agua hirviendo por 5 minutos y licúa con la cebolla, el ajo y sal.</li>
+                        <li>Calienta aceite y pasa las tortillas rápidamente por el aceite caliente.</li>
+                        <li>Rellena cada tortilla con pollo desmenuzado y enrolla.</li>
+                        <li>Cubre con la salsa verde caliente, añade crema y queso fresco.</li>
+                    </ol>
+                </div>
             </div>
             <img src="https://www.loveandlemons.com/wp-content/uploads/2020/01/easy-enchiladas-2.jpg" alt="Enchiladas Verdes">
         </section>
 
-        <section class="recipe" style="border-color: #ffe082;">
+        <section class="recipe" id="curry">
             <div class="recipe-content">
-                <h2 style="color: #ffeb3b;">3. Curry de Pollo con Arroz Basmati</h2>
+                <h2 style="color: #FFEB3B;">3. Curry de Pollo con Arroz Basmati</h2>
                 <h3>Ingredientes:</h3>
                 <ul>
                     <li>500 g de pechuga de pollo</li>
@@ -83,21 +98,24 @@
                     <li>Aceite vegetal</li>
                     <li>Sal y pimienta</li>
                 </ul>
-                <h3>Preparación:</h3>
-                <ol>
-                    <li>Preparar los ingredientes: Pica finamente la cebolla, el ajo y el jengibre. Corta el pollo en cubos.</li>
-                    <li>Sofreír el pollo: Calienta aceite y sofríe el pollo hasta dorarlo. Retíralo y resérvalo.</li>
-                    <li>Hacer la salsa: En la misma sartén, añade cebolla, ajo y jengibre. Cocina hasta dorar, añade curry y mezcla bien. Incorpora la leche de coco y cocina a fuego lento durante 10 minutos.</li>
-                    <li>Cocinar el arroz: Hierve el arroz basmati en agua con sal siguiendo las instrucciones del paquete.</li>
-                    <li>Finalizar el curry: Añade el pollo a la salsa y cocina unos 10 minutos más. Sirve sobre el arroz basmati.</li>
-                </ol>
+                <div class="preparacion">
+                    <h3>Preparación:</h3>
+                    <ol>
+                        <li>Pica la cebolla, el ajo y el jengibre. Corta el pollo en cubos.</li>
+                        <li>En una sartén, calienta aceite y sofríe el pollo hasta dorarlo.</li>
+                        <li>En la misma sartén, añade cebolla, ajo y jengibre hasta dorar.</li>
+                        <li>Agrega curry en polvo y mezcla. Incorpora leche de coco y cocina 10 minutos.</li>
+                        <li>Cocina el arroz en agua con sal.</li>
+                        <li>Sirve el curry sobre el arroz basmati.</li>
+                    </ol>
+                </div>
             </div>
             <img src="https://www.loveandlemons.com/wp-content/uploads/2021/04/chicken-curry.jpg" alt="Curry de Pollo con Arroz Basmati">
         </section>
 
-        <section class="recipe" style="border-color: #f8bbd0;">
+        <section class="recipe" id="sopa">
             <div class="recipe-content">
-                <h2 style="color: #e91e63;">4. Sopa de Ajo</h2>
+                <h2 style="color: #F44336;">4. Sopa de Ajo</h2>
                 <h3>Ingredientes:</h3>
                 <ul>
                     <li>8 dientes de ajo</li>
@@ -109,22 +127,23 @@
                     <li>Aceite de oliva</li>
                     <li>Sal y pimienta</li>
                 </ul>
-                <h3>Preparación:</h3>
-                <ol>
-                    <li>Pelar los ajos y cortarlos en láminas. Cortar el pan en rebanadas finas.</li>
-                    <li>En una cazuela, calienta aceite y sofríe los ajos a fuego lento hasta dorar.</li>
-                    <li>Agregar pimentón y pan, sofríe unos minutos.</li>
-                    <li>Vierte el caldo caliente y cocina a fuego lento durante 15 minutos.</li>
-                    <li>Añadir jamón y romper los huevos sobre la sopa, cocina unos minutos más.</li>
-                    <li>Servir caliente, con pimienta y un chorrito de aceite de oliva.</li>
-                </ol>
+                <div class="preparacion">
+                    <h3>Preparación:</h3>
+                    <ol>
+                        <li>Pela los ajos y córtalos en láminas. Corta el pan en rebanadas.</li>
+                        <li>En una cazuela, calienta aceite y sofríe los ajos hasta dorar.</li>
+                        <li>Agrega pimentón y pan, sofríe un poco más.</li>
+                        <li>Vierte el caldo y cocina 15 minutos.</li>
+                        <li>Agrega el jamón y los huevos, cocina hasta que las claras estén cuajadas.</li>
+                    </ol>
+                </div>
             </div>
             <img src="https://www.loveandlemons.com/wp-content/uploads/2021/10/sopa-de-ajo.jpg" alt="Sopa de Ajo">
         </section>
 
-        <section class="recipe" style="border-color: #fbc02d;">
+        <section class="recipe" id="tiramisu">
             <div class="recipe-content">
-                <h2 style="color: #ff5722;">5. Tiramisú Clásico</h2>
+                <h2 style="color: #FF5722;">5. Tiramisú Clásico</h2>
                 <h3>Ingredientes:</h3>
                 <ul>
                     <li>500 g de queso mascarpone</li>
@@ -135,19 +154,34 @@
                     <li>50 ml de licor Amaretto</li>
                     <li>Cacao en polvo</li>
                 </ul>
-                <h3>Preparación:</h3>
-                <ol>
-                    <li>Separa las yemas de las claras. Bate las yemas con el azúcar hasta espumar. Añade el queso mascarpone y mezcla.</li>
-                    <li>Bate las claras a punto de nieve e incorpóralas a la mezcla.</li>
-                    <li>Mojar los bizcochos en café con Amaretto y colocarlos en un molde. Cubre con crema.</li>
-                    <li>Refrigera al menos 4 horas y espolvorea con cacao antes de servir.</li>
-                </ol>
+                <div class="preparacion">
+                    <h3>Preparación:</h3>
+                    <ol>
+                        <li>Bate las yemas con el azúcar, añade el queso mascarpone y mezcla.</li>
+                        <li>Bate las claras a punto de nieve y agrégalas a la mezcla.</li>
+                        <li>Mojar los bizcochos en café con Amaretto y colocarlos en un molde.</li>
+                        <li>Cubre con crema y refrigera al menos 4 horas.</li>
+                    </ol>
+                </div>
             </div>
             <img src="https://www.loveandlemons.com/wp-content/uploads/2020/03/tiramisu.jpg" alt="Tiramisú Clásico">
         </section>
+
+        <button class="scroll-to-top">Subir</button>
     </main>
+
     <footer>
         <p>&copy; 2024 Recetas de Cocina. Todos los derechos reservados.</p>
     </footer>
+
+    <script>
+        // Función para volver al inicio al hacer clic en el botón "Subir"
+        document.querySelector('.scroll-to-top').addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
 </body>
 </html>
