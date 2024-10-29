@@ -1,16 +1,16 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #e8f5e9; /* Verde claro */
-    color: #333;
+    background-color: #f5f5f5; /* Fondo claro */
 }
 
 header {
     background-color: #4caf50; /* Verde más oscuro */
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 h1 {
@@ -21,72 +21,32 @@ main {
     padding: 20px;
 }
 
-section {
-    margin-bottom: 40px;
-    padding: 15px;
-    border: 1px solid #4caf50; /* Verde más oscuro */
+.recipe {
+    border: 1px solid #ffcc80; /* Borde naranja */
     border-radius: 5px;
-    background-color: #ffffff; /* Fondo blanco para las secciones */
-}
-
-h2 {
-    color: #4caf50; /* Verde más oscuro */
-}
-
-h3 {
-    color: #ffeb3b; /* Amarillo */
-}
-
-ul, ol {
-    padding-left: 20px;
-}
-
-footer {
-    background-color: #4caf50; /* Verde más oscuro */
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #e8f5e9; /* Verde claro */
-    color: #333;
-}
-
-header {
-    background-color: #4caf50; /* Verde más oscuro */
-    color: white;
-    text-align: center;
+    background-color: #fff3e0; /* Fondo naranja claro */
+    display: flex; /* Usar flexbox para alinear contenido */
+    margin-bottom: 20px;
     padding: 20px;
 }
 
-h1 {
-    margin: 0;
+.recipe-content {
+    flex: 1; /* Ocupar espacio disponible */
+    margin-right: 20px; /* Espacio entre texto e imagen */
 }
 
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 40px;
-    padding: 15px;
-    border: 1px solid #4caf50; /* Verde más oscuro */
-    border-radius: 5px;
-    background-color: #ffffff; /* Fondo blanco para las secciones */
+.recipe img {
+    width: 150px; /* Ancho de las imágenes */
+    height: auto; /* Mantener proporción */
+    border-radius: 5px; /* Bordes redondeados en la imagen */
 }
 
 h2 {
-    color: #4caf50; /* Verde más oscuro */
+    color: #4caf50; /* Verde más oscuro para el título */
 }
 
 h3 {
-    color: #ffeb3b; /* Amarillo */
+    color: #ff9800; /* Color naranja para subtítulos */
 }
 
 ul, ol {
