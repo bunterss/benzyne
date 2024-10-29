@@ -1,1 +1,1 @@
-Just a simple web page with css
+Just a simple web page with Html and Css
