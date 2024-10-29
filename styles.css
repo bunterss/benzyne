@@ -37,11 +37,11 @@ h1 {
     color: white;
     text-decoration: none;
     padding: 5px 10px;
-    border-radius: 5px;
 }
 
 .menu a:hover {
     background-color: #1565C0; /* Hover en azul más oscuro */
+    border-radius: 5px;
 }
 
 main {
@@ -49,17 +49,18 @@ main {
 }
 
 .recipe {
-    border: 1px solid #ffcc80; /* Borde naranja */
+    border: 1px solid #ddd; /* Borde gris claro */
     border-radius: 5px;
-    background-color: #fff3e0; /* Fondo naranja claro */
+    background-color: #fff; /* Fondo blanco */
     display: flex; /* Usar flexbox para alinear contenido */
     margin-bottom: 20px;
     padding: 20px;
-    transition: transform 0.2s; /* Efecto de hover */
+    transition: transform 0.2s, box-shadow 0.2s; /* Efecto de hover */
 }
 
 .recipe:hover {
-    transform: scale(1.02); /* Aumentar ligeramente al pasar el mouse */
+    transform: translateY(-3px); /* Elevar ligeramente al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra al hover */
 }
 
 .recipe-content {
@@ -75,6 +76,7 @@ main {
 
 h2 {
     color: #2196F3; /* Azul para el título de la receta */
+    margin-bottom: 10px; /* Espacio debajo del título */
 }
 
 h3 {
@@ -83,6 +85,7 @@ h3 {
 
 ul, ol {
     padding-left: 20px;
+    margin: 10px 0; /* Espacio arriba y abajo de listas */
 }
 
 .preparacion {
@@ -91,6 +94,7 @@ ul, ol {
 
 .recipe:hover .preparacion {
     display: block; /* Mostrar preparación al hacer hover */
+    margin-top: 10px; /* Espacio encima de la preparación */
 }
 
 .scroll-to-top {
@@ -102,6 +106,7 @@ ul, ol {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center; /* Centrar texto */
 }
 
 .scroll-to-top:hover {
@@ -116,4 +121,5 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: 20px; /* Espacio encima del pie de página */
 }
