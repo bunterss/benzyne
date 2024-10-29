@@ -70,9 +70,10 @@ main {
 }
 
 .recipe img {
-    width: 300px; /* Ancho fijo deseado */
-    height: auto; /* Mantener proporción */
-    object-fit: cover; /* Mantener la proporción de la imagen */
+    width: 300px; /* Ajusta este valor al ancho deseado */
+    height: auto; /* Eliminar el height fijo */
+    max-width: none; /* Evita el ajuste al ancho del contenedor */
+    object-fit: contain; /* Mantiene la imagen proporcional */
     border-radius: 5px; /* Bordes redondeados en la imagen */
 }
 
