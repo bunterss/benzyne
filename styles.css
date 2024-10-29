@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9; /* Verde claro */
+    color: #333;
+}
+
+header {
+    background-color: #4caf50; /* Verde más oscuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 1px solid #4caf50; /* Verde más oscuro */
+    border-radius: 5px;
+    background-color: #ffffff; /* Fondo blanco para las secciones */
+}
+
+h2 {
+    color: #4caf50; /* Verde más oscuro */
+}
+
+h3 {
+    color: #ffeb3b; /* Amarillo */
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #4caf50; /* Verde más oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9; /* Verde claro */
+    color: #333;
+}
+
+header {
+    background-color: #4caf50; /* Verde más oscuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 1px solid #4caf50; /* Verde más oscuro */
+    border-radius: 5px;
+    background-color: #ffffff; /* Fondo blanco para las secciones */
+}
+
+h2 {
+    color: #4caf50; /* Verde más oscuro */
+}
+
+h3 {
+    color: #ffeb3b; /* Amarillo */
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #4caf50; /* Verde más oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
