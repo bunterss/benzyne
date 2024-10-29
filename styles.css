@@ -37,6 +37,7 @@ h1 {
     color: white;
     text-decoration: none;
     padding: 5px 10px;
+    transition: background-color 0.5s ease; /* Transición más lenta para el hover */
 }
 
 .menu a:hover {
@@ -55,7 +56,7 @@ main {
     display: flex; /* Usar flexbox para alinear contenido */
     margin-bottom: 20px;
     padding: 20px;
-    transition: transform 0.2s, box-shadow 0.2s; /* Efecto de hover */
+    transition: transform 0.5s, box-shadow 0.5s; /* Aumentar la duración de la transición al hover */
 }
 
 .recipe:hover {
@@ -88,13 +89,17 @@ ul, ol {
     margin: 10px 0; /* Espacio arriba y abajo de listas */
 }
 
+/* Estilos de la preparación */
 .preparacion {
     display: none; /* Ocultar preparación inicialmente */
+    transition: opacity 0.5s ease; /* Transición para la opacidad */
+    opacity: 0; /* Opacidad inicial */
 }
 
 .recipe:hover .preparacion {
     display: block; /* Mostrar preparación al hacer hover */
     margin-top: 10px; /* Espacio encima de la preparación */
+    opacity: 1; /* Cambiar opacidad a 1 al hacer hover */
 }
 
 .scroll-to-top {
