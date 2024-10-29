@@ -4,10 +4,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5; /* Fondo claro */
+    color: #000; /* Texto negro */
 }
 
 header {
-    background-color: #4caf50; /* Verde más oscuro */
+    background-color: #2196F3; /* Azul */
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -15,6 +16,32 @@ header {
 
 h1 {
     margin: 0;
+}
+
+.menu {
+    background-color: #1976D2; /* Azul más oscuro */
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #1565C0; /* Hover en azul más oscuro */
 }
 
 main {
@@ -28,6 +55,11 @@ main {
     display: flex; /* Usar flexbox para alinear contenido */
     margin-bottom: 20px;
     padding: 20px;
+    transition: transform 0.2s; /* Efecto de hover */
+}
+
+.recipe:hover {
+    transform: scale(1.02); /* Aumentar ligeramente al pasar el mouse */
 }
 
 .recipe-content {
@@ -42,19 +74,42 @@ main {
 }
 
 h2 {
-    color: #4caf50; /* Verde más oscuro para el título */
+    color: #2196F3; /* Azul para el título de la receta */
 }
 
 h3 {
-    color: #ff9800; /* Color naranja para subtítulos */
+    color: #000; /* Negro para subtítulos */
 }
 
 ul, ol {
     padding-left: 20px;
 }
 
+.preparacion {
+    display: none; /* Ocultar preparación inicialmente */
+}
+
+.recipe:hover .preparacion {
+    display: block; /* Mostrar preparación al hacer hover */
+}
+
+.scroll-to-top {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scroll-to-top:hover {
+    background-color: #388E3C; /* Hover en verde más oscuro */
+}
+
 footer {
-    background-color: #4caf50; /* Verde más oscuro */
+    background-color: #2196F3; /* Azul */
     color: white;
     text-align: center;
     padding: 10px 0;
