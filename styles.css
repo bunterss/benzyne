@@ -70,7 +70,8 @@ main {
 }
 
 .recipe img {
-    max-width: 150px; /* Ancho máximo de las imágenes */
+    width: 100%; /* Ancho completo del contenedor */
+    max-width: 250px; /* Ancho máximo deseado */
     height: auto; /* Mantener proporción */
     border-radius: 5px; /* Bordes redondeados en la imagen */
 }
@@ -128,4 +129,3 @@ footer {
     width: 100%;
     margin-top: 20px; /* Espacio encima del pie de página */
 }
-
